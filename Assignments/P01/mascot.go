@@ -1,13 +1,6 @@
-package mascot_test
+package mascot
 
-import (
-	"testing"
-
-	"github.com/BishopSwearingen/4143-PLC/mascot"
-)
-
-func TestMascot(t *testing.T) {
-	if mascot.BestMascot() != "Go Gopher" {
-		t.Fatal("Wrong Mascot :( ")
-	}
+//BestMascot returns the name of the Best Mascot
+func BestMascot() string {
+	return "Go Gopher"
 }
